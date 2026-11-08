@@ -8,4 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Add your own problems here
 add_executable(project main.cpp problems/sum.cpp
         problems/DfaSimulation.cpp
-        problems/Determinization.cpp)
+        problems/Determinization.cpp
+        problems/Minimization.cpp)
