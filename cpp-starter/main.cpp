@@ -9,6 +9,7 @@
 #include "problems/DfaSimulation.hpp"
 #include "problems/Determinization.hpp"
 #include "problems/Minimization.hpp"
+#include "problems/RegexSearch.hpp"
 
 int runProblem(int argc, char* argv[]) {
     // Add your own problems here
@@ -17,6 +18,7 @@ int runProblem(int argc, char* argv[]) {
     problems.push_back(new DfaSimulation());
     problems.push_back(new Determinization());
     problems.push_back(new Minimization());
+    problems.push_back(new RegexSearch());
 
     cxxopts::Options options("project", "Run the specific problem");
 

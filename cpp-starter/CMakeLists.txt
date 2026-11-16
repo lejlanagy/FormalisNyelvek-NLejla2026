@@ -9,4 +9,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_executable(project main.cpp problems/sum.cpp
         problems/DfaSimulation.cpp
         problems/Determinization.cpp
-        problems/Minimization.cpp)
+        problems/Minimization.cpp
+        problems/RegexSearch.cpp)
